@@ -9,5 +9,8 @@ class AboutPage(TemplateView):
 class HomePage(TemplateView):
     template_name = 'home.html'
 
-class ProfilePage(TemplateView):
-    template_name = 'profile.html'
+class ProjectsPage(TemplateView):
+    template_name = 'projects.html'
+
+class ContactsPage(TemplateView):
+    template_name = 'contact.html'
